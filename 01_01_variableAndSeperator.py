@@ -5,7 +5,7 @@ print(a)
 
 ##seperator
 a, b, c = 1, 2, 3
-print(a, b, c, sep=', ')
+print(a, b, c, sep='&')
 #각 변수 사이를 , 로 지정
 
 print(a, b, c, sep='\n')
@@ -13,6 +13,6 @@ print(a, b, c, sep='\n')
 # *프린터는 자동으로 줄바꿈이 존재함. 
 
 #줄바꿈말고 옆으로 옮기기 : end
-print(a, end = ' ')
-print(b, end = ' ')
+print(a, end = '+')
+print(b, end = '+')
 print(c)
