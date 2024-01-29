@@ -15,6 +15,7 @@ print(A)
 print(A.sort(reverse = True))
 print(A)
 '''
+
 for i in range(N):
     A  = list(map(int, sys.stdin.readline().split()))
     A.sort(reverse = True)
