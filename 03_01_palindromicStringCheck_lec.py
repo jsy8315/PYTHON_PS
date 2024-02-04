@@ -29,3 +29,4 @@ for i in range(n):
     else:
         print("#%d NO" %(i + 1))
 
+#면접가면 리버스하지말고 직접 구현해보라고 요구함
