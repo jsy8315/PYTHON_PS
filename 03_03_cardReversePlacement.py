@@ -8,14 +8,14 @@ A = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 for i in range(10):
     ai, bi = map(int, sys.stdin.readline().split())
     B = A
-    print(B)
     for j in range(ai - 1):
         A[j] = B[j]
-    for j in range(ai - 1, bi):
+    for j in range(ai - 1, ai - 1 + ((bi - ai + 1) // 2)):
         A[j] = B[ai + bi - 2 - j]
     for j in range(bi):
         A[j] = B[j]
-    B = A
 
 for i in range(20):
     print(A[i], end = ' ')
+
+#역배치가 안됨
