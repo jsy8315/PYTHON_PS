@@ -43,3 +43,5 @@ for i in range(sizeB):
         C[0] = C[0] + B[i]
 
 print(C[0])
+
+#뭔가 더 깔끔하게 추출하는 방법이 있지 않을까?
