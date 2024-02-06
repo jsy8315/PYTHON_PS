@@ -12,10 +12,13 @@ sum = [0] * N
 cnt = 0
 
 for i in range(N):
-    for j in range(i, N):
-        sum[i] = sum[i] + A[j]
-        if sum[i] == M:
-            cnt += 1
-            break
+    if A[i] > M:
+        break
+    else:
+        for j in range(i, N):
+            sum[i] = sum[i] + A[j]
+            if sum[i] == M:
+                cnt += 1
+                break
 
 print(cnt)
