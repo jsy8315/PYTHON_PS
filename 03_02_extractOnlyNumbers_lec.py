@@ -8,7 +8,7 @@ s = sys.stdin.readline().strip()
 res = 0
 
 for x in s:
-    if x.isdecimal():  #0~9까지의 수 판별, 유사품 isDigit
+    if x.isdecimal():  #0~9까지의 수 판별, 유사품 isdigit
         res = res * 10 + int(x)
 print(res)
 
